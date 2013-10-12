@@ -1,12 +1,12 @@
-# revision 15878
+# revision 27458
 # category Package
 # catalog-ctan /macros/latex/contrib/GuIT/GuITlogo
-# catalog-date 2009-11-09 22:36:07 +0100
+# catalog-date 2012-08-19 10:36:46 +0200
 # catalog-license lppl
-# catalog-version 0.9.1
+# catalog-version 0.9.2
 Name:		texlive-guitlogo
-Version:	0.9.1
-Release:	2
+Version:	0.9.2
+Release:	1
 Summary:	Macros for typesetting the GuIT logo
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/GuIT/GuITlogo
@@ -21,16 +21,16 @@ Requires(post):	texlive-kpathsea
 
 %description
 Guit provides some commands useful to correctly write the logo
-of "Gruppo Utilizzatori Italiani di TeX" (Italian TeX User
-Group), using the default document color or any other color the
-user may ever choose, in conformity with logo's scheme as seen
-on the Group web site (http://www.guit.sssup.it). Likewise,
-commands are provided that simplify the writing of GuIT
-acronym's complete expansion, of the addresses of Group's
-internet site and public forum and 'GuITmeeting' logo.
-Optionally, using hyperref, the outputs of the above cited
-commands can become hyperlinks to Group's site. Documentation
-is available in Italian, only.
+of GUIT -- "Gruppo Utilizzatori Italiani di TeX" (Italian TeX
+User Group), using the default document color or any other
+color the user may ever choose, in conformity with logo's
+scheme as seen on the Group web site
+(http://www.guit.sssup.it). Likewise, commands are provided
+that simplify the writing of GuIT acronym's complete expansion,
+of the addresses of Group's internet site and public forum and
+'GuITmeeting' logo. Optionally, using hyperref, the outputs of
+the above cited commands can become hyperlinks to Group's site.
+Documentation is available in Italian, only.
 
 %post
     %{_sbindir}/texlive.post
@@ -61,17 +61,3 @@ is available in Italian, only.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.9.1-2
-+ Revision: 752455
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.9.1-1
-+ Revision: 718593
-- texlive-guitlogo
-- texlive-guitlogo
-- texlive-guitlogo
-- texlive-guitlogo
-

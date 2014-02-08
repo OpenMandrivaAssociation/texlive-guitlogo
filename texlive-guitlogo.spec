@@ -6,7 +6,7 @@
 # catalog-version 0.9.1
 Name:		texlive-guitlogo
 Version:	0.9.1
-Release:	2
+Release:	3
 Summary:	Macros for typesetting the GuIT logo
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/GuIT/GuITlogo

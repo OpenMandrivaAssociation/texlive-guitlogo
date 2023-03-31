@@ -1,6 +1,6 @@
 Name:		texlive-guitlogo
 Version:	55741
-Release:	1
+Release:	2
 Summary:	Macros for typesetting the GuIT logo
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/GuIT/GuITlogo

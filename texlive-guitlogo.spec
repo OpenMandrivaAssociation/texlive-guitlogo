@@ -3,7 +3,7 @@ Version:	55741
 Release:	2
 Summary:	Macros for typesetting the GuIT logo
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/GuIT/GuITlogo
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/GuIT/GuITlogo
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/guitlogo.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/guitlogo.doc.r%{version}.tar.xz
